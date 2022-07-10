@@ -6,3 +6,4 @@ public
 .eslintrc.js
 jest.config.ts
 commitlint.config.js
+babel.config.js
