@@ -3,6 +3,7 @@
   "include": [
     "./vite.config.ts",
     ".eslintrc.js",
+    "commitlint.config.js",
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
