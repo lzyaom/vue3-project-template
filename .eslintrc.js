@@ -2,14 +2,13 @@ module.exports = {
   root: true,
   env: {
     browser: true,
-    es2021: true,
-    node: true
+    es2021: true
   },
   extends: [
-    'plugin:vue/vue3-essential',
+    'plugin:vue/vue3-recommended',
     'standard',
-    'eslint-config-standard-with-typescript',
-    'prettier'
+    'prettier',
+    'plugin:prettier/recommended'
   ],
   parserOptions: {
     ecmaVersion: 'latest',
@@ -18,11 +17,7 @@ module.exports = {
     project: ['./tsconfig.eslint.json'],
     extraFileExtensions: ['.vue']
   },
-  plugins: [
-    'vue',
-    '@typescript-eslint',
-    'prettier'
-  ],
+  plugins: ['vue', '@typescript-eslint', 'prettier'],
   rules: {
     'prettier/prettier': 'error'
   }
