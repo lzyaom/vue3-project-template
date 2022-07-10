@@ -4,3 +4,5 @@ public
 .husky
 .vscode
 .eslintrc.js
+jest.config.ts
+commitlint.config.js
